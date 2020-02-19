@@ -9,7 +9,7 @@ alert(`Upper case string is: ${upperCaseString}`);
 const authorString = '-Henry Ford'
 
 //then create a new variable completeString that holds a new string created by using a string method to put the string in authorString on the end of the string in quoteString. Use this format for your output:
-const completeString = quoteString.conCat(authorString)
+const completeString = quoteString.concat(authorString)
 alert(completeString)
 
 //Now create a new string variable named secondQuote and put this string in it: 
